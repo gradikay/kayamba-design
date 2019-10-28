@@ -1,0 +1,105 @@
+﻿/*title{
+    background-color:rgb(100,0,0);
+    color:white;
+    border:1px solid grey;
+    border-radius:4px;
+}*/
+body{
+    margin:0;
+}
+div.top-page{
+    background-color:rgba(120,0,0,0.8);
+    padding:0;
+    margin:0;
+}
+div.top-page h1{
+    text-align:center;
+    padding:20px 0 20px 0;
+    background-color:rgba(255,255,255,1);
+    margin:0;
+}
+div.top-page h3{
+    text-align:center;
+    color:white;
+    padding:10px 0 10px 0;
+    margin:0;
+}
+.div-table {
+    
+    margin: 15px;
+    max-width: 30%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.div-table table{
+    width:100%;
+}
+/*.div-table table, .div-table th, .div-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}*/
+.div-table td, .div-table th {
+    padding: 10px;
+    color:white;
+    text-align:center;
+}
+.div-table caption {
+    background-color: #670404;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-left-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+}
+/*table 1*/
+.div-table1 table, .div-table2 table {
+    background-color: #920c0c;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div-table1 th {
+    background-color: rgba(230,0,0,0.5);
+    border: 5px solid rgb(230,0,0);
+}
+.div-table1 th:hover {
+    background-color:rgba(230,0,0,1);
+
+}
+.div-table1 td{
+    background-color:rgba(210,0,100,0.8);
+    border:5px solid rgb(210,0,100);
+}
+.div-table1 td:hover{
+    background-color: rgba(210,0,100,1);
+}
+/*table 2*/
+.div-table2 th {
+    background-color: rgba(230,0,0,1);
+    border: 5px solid rgb(230,0,0);
+}
+
+.div-table2 th:hover, .div-table2 td:hover {
+    border: 5px solid #920c0c;
+    border-radius:10px;
+}
+
+.div-table2 td {
+    background-color: rgb(210,0,100);
+    border: 5px solid rgb(210,0,100);
+}
+
+.div-table a{
+    color:white;
+    text-decoration:none;
+    padding:5px;
+    font-weight:bold;
+    
+}
+div.even{
+    padding:0 15px 0 15px;
+}
+div.odd{
+    padding:0 15px 0 15px;
+}

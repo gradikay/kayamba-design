@@ -25,11 +25,11 @@ div.top-page h3{
     margin:0;
 }
 div.div-table {
-    
     margin: 15px;
     margin-left: 0;
     margin-right: 0;
     display:inline-block;
+    width:50px;
 }
 .div-table table{
     width:100%;
@@ -60,7 +60,7 @@ div.div-table {
     border-bottom-right-radius: 10px;
 }
 .div-table1 th {
-    background-color: black;
+    background-color: rgba(230,0,0,0.5);
     border: 5px solid rgb(230,0,0);
 }
 .div-table1 th:hover {
@@ -68,7 +68,7 @@ div.div-table {
 
 }
 .div-table1 td{
-    background-color:black;
+    background-color:rgba(210,0,100,0.8);
     border:5px solid rgb(210,0,100);
 }
 .div-table1 td:hover{

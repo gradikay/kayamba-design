@@ -60,7 +60,7 @@ div.div-table {
     border-bottom-right-radius: 10px;
 }
 .div-table1 th {
-    background-color: rgba(230,0,0,0.5);
+    background-color: black;
     border: 5px solid rgb(230,0,0);
 }
 .div-table1 th:hover {
@@ -68,7 +68,7 @@ div.div-table {
 
 }
 .div-table1 td{
-    background-color:rgba(210,0,100,0.8);
+    background-color:black;
     border:5px solid rgb(210,0,100);
 }
 .div-table1 td:hover{
